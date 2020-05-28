@@ -15,8 +15,7 @@ public class TextUI {
 
         if (game == null) {
             System.err.println ("*---------------------------------------------*");
-            System.err.println ("| You must first modify the UI program.       |");
-            System.err.println ("| Look for the first TODO item in TextUI.java |");
+            System.err.println ("| Game logic must be created and assigned.    |");
             System.err.println ("*---------------------------------------------*");
             System.exit(0xE0);
         }
@@ -52,21 +51,12 @@ public class TextUI {
         }
     }
 
-    /**
-     * The main loop for playing a SINGLE game session. Notice that
-     * the following method contains NO GAME LOGIC! Its main task is
-     * to accept user input and invoke the appropriate methods in the
-     * game engine.
-     */
     public void playLoop() {
         /* Place the first two random tiles */
         game.placeRandomValue();
         game.placeRandomValue();
         renderBoard();
 
-        /* To keep the right margin within 75 columns, we split the
-           following long string literal into two lines
-         */
         System.out.print ("Slide direction (W, A, S, D), " +
                 "[U]ndo or [Q]uit? ");
         String resp = inp.next().trim().toUpperCase();

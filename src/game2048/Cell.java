@@ -1,8 +1,6 @@
 package game2048;
 /**
  * Cell class: stores the location and value of a cell on a 2D array.
- * Created by Hans Dulimarta (Summer 2014)
- * Edited by Owen Dunn (2/21/17)
  */
 public class Cell implements Comparable<Cell> {
     public int row, column, value;

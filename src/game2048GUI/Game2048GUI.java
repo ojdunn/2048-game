@@ -10,7 +10,7 @@ import game2048.*; // game logic package
  * and game2048 package it is a part of to handle all game logic.
  *
  * @author Owen Dunn
- * @version 3/21/2017, Project 3, CIS 163
+ * @version 1.0
  ********************************************************************/
 public class Game2048GUI extends JPanel {
     /** 2048 game logic object using game2048 package */

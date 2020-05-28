@@ -9,7 +9,7 @@ import java.util.*;
  * Note: Cell class was changed. Must use to pass all JUnit tests.
  *
  * @author Owen Dunn
- * @version 2/21/2017, Project 2, CIS 163
+ * @version 1.0
  **********************************************************************/
 public class Game2048 implements NumberSlider {
     /** The number of rows (height) and columns (width). */

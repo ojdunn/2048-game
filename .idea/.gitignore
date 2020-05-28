@@ -6,6 +6,6 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
-*.class
-*.xml
-*.iml
+.*class
+.*xml
+.*iml

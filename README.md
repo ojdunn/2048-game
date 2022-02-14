@@ -7,5 +7,5 @@ While the game passes, some statistics are kept. These statistics include total 
 
 The GUI uses a JFrame and JPanel grid.
 
-Board set to 16x16 with 2048 winning score: 
+Board set to 16x16 with 2048 winning score (a "You Win" popup appeared that's not pictured): 
 ![16x16 Board in action!](/game2048LargeBoard.png)
